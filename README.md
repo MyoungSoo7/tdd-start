@@ -1,15 +1,9 @@
-![image](https://github.com/MyoungSoo7/tdd-start/assets/13523622/8d88e39e-5d13-40fc-99b3-b5976306c4e8)# 학생 과목 수강 시스템 개발(backend)
+# 학생 과목 수강 시스템 개발(backend)
 
 ## 요구사항
 하나의 과목에는 정원이 있다. (정원이상은 등록불가) <br>
 학생이 수강할 수 있는 과목수 제한이 있고 수강후 등급, 결과가 나온다. <br>
 여러 학생이 동시에 수강신청을 하는 동시성제어를 해야 한다. <br>
-요구사항 정의서<br>
-![image](https://github.com/MyoungSoo7/tdd-start/assets/13523622/6ce52a32-52c4-414d-9a1a-87787f750103)
-객체정의서 <br>
-![image](https://github.com/MyoungSoo7/tdd-start/assets/13523622/8cc477c6-a62f-4b50-9748-d6805eb084f8)
-
-
 
 ## 개발순서
 데이터모델링<br>
@@ -17,15 +11,13 @@
 ![image](https://github.com/MyoungSoo7/tdd-start/assets/13523622/84b4541b-ef29-43af-ad0e-7d72772dc70f)
 ### 테이블정의서
 ![image](https://github.com/MyoungSoo7/tdd-start/assets/13523622/70375533-4cf6-4791-bfbf-f4ab8adacb83)
- 
- 
-
-
-
-API 설계(노션)<br>
+### API 설계(노션) 
 
 ## TDD
 
-
-
+-- 요구사항 정의서<br>
+-- ![image](https://github.com/MyoungSoo7/tdd-start/assets/13523622/6ce52a32-52c4-414d-9a1a-87787f750103)
+-- 객체정의서 <br>
+-- ![image](https://github.com/MyoungSoo7/tdd-start/assets/13523622/8cc477c6-a62f-4b50-9748-d6805eb084f8)
+-- ![image](https://github.com/MyoungSoo7/tdd-start/assets/13523622/8d88e39e-5d13-40fc-99b3-b5976306c4e8)
 
