@@ -7,6 +7,11 @@
 
 ## 개발순서
 데이터모델링(ERD, 테이블정의서, 스키마)<br>
+
+![image](https://github.com/MyoungSoo7/tdd-start/assets/13523622/54b4dd5b-6cd5-4648-846c-459b7bc0bca7)
+
+
+
 API 설계(노션)<br>
 
 ## TDD
