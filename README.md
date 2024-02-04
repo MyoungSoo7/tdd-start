@@ -12,10 +12,11 @@
 
 
 ## 개발순서
-데이터모델링(ERD, 테이블정의서, 스키마)<br>
-### ERD
+데이터모델링<br>
+###ERD
 ![image](https://github.com/MyoungSoo7/tdd-start/assets/13523622/84b4541b-ef29-43af-ad0e-7d72772dc70f)
-
+###테이블정의서
+![image](https://github.com/MyoungSoo7/tdd-start/assets/13523622/70375533-4cf6-4791-bfbf-f4ab8adacb83)
 
 
 ![image](https://github.com/MyoungSoo7/tdd-start/assets/13523622/54b4dd5b-6cd5-4648-846c-459b7bc0bca7)
