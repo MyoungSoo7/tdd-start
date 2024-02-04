@@ -3,14 +3,14 @@ GRANT ALL PRIVILEGES ON `lecture`.* TO 'lecture'@'localhost' IDENTIFIED BY 'lect
 FLUSH PRIVILEGES;
 
 
-DROP TABLE IF EXISTS `lecture`.`department`;
+DROP TABLE IF EXISTS `class`.`department`;
 -- Create Department table
 CREATE TABLE department (
                             department_code INT PRIMARY KEY AUTO_INCREMENT COMMENT '학과코드',
                             department_name VARCHAR(50) COMMENT '학과명'
 );
 -- Create Student table
-DROP TABLE IF EXISTS `lecture`.`student`;
+DROP TABLE IF EXISTS `class`.`student`;
 CREATE TABLE student (
                          student_id INT PRIMARY KEY AUTO_INCREMENT COMMENT '학생번호',
                          student_name VARCHAR(50) COMMENT '학생명',
@@ -18,7 +18,7 @@ CREATE TABLE student (
 );
 
 
-DROP TABLE IF EXISTS `lecture`.`professor`;
+DROP TABLE IF EXISTS `class`.`professor`;
 CREATE TABLE professor (
                            professor_code INT PRIMARY KEY AUTO_INCREMENT COMMENT '교수번호',
                            professor_name VARCHAR(50) COMMENT '교수명',
@@ -26,7 +26,7 @@ CREATE TABLE professor (
 );
 
 
-DROP TABLE IF EXISTS `lecture`.`course`;
+DROP TABLE IF EXISTS `class`.`course`;
 CREATE TABLE course (
                         course_code INT AUTO_INCREMENT PRIMARY KEY COMMENT '강의번호',
                         course_name VARCHAR(20) NOT NULL COMMENT '강의명',
@@ -41,7 +41,7 @@ CREATE TABLE course (
 );
 
 
-DROP TABLE IF EXISTS `lecture`.`student_course`;
+DROP TABLE IF EXISTS `class`.`student_course`;
 -- Create Student_Course table
 CREATE TABLE student_course (
                                 id INT not null unique,
