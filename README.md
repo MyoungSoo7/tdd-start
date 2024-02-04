@@ -13,9 +13,9 @@
 
 ## 개발순서
 데이터모델링<br>
-###ERD
+### ERD
 ![image](https://github.com/MyoungSoo7/tdd-start/assets/13523622/84b4541b-ef29-43af-ad0e-7d72772dc70f)
-###테이블정의서
+### 테이블정의서
 ![image](https://github.com/MyoungSoo7/tdd-start/assets/13523622/70375533-4cf6-4791-bfbf-f4ab8adacb83)
 
 
