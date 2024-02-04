@@ -1,4 +1,4 @@
-# 학생 과목 수강 시스템 개발(backend)
+![image](https://github.com/MyoungSoo7/tdd-start/assets/13523622/8d88e39e-5d13-40fc-99b3-b5976306c4e8)# 학생 과목 수강 시스템 개발(backend)
 
 ## 요구사항
 하나의 과목에는 정원이 있다. (정원이상은 등록불가) <br>
@@ -13,6 +13,10 @@
 
 ## 개발순서
 데이터모델링(ERD, 테이블정의서, 스키마)<br>
+### ERD
+![image](https://github.com/MyoungSoo7/tdd-start/assets/13523622/84b4541b-ef29-43af-ad0e-7d72772dc70f)
+
+
 
 ![image](https://github.com/MyoungSoo7/tdd-start/assets/13523622/54b4dd5b-6cd5-4648-846c-459b7bc0bca7)
 ![image](https://github.com/MyoungSoo7/tdd-start/assets/13523622/466434ce-6a5d-4e05-b05a-a724f2dbaf3e)
