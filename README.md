@@ -5,8 +5,10 @@
 - 학생이 수강할 수 있는 과목수 제한이 있고 수강후 등급, 결과가 나온다. <br>
 - 여러 학생이 동시에 수강신청을 하는 동시성제어를 해야 한다. <br>
 
-### 테이블정의서
-![image](https://github.com/MyoungSoo7/tdd-start/assets/13523622/70375533-4cf6-4791-bfbf-f4ab8adacb83)
+### ERD
+![image](https://github.com/MyoungSoo7/tdd-start/assets/13523622/39aaff9c-010d-4d7e-b0da-43717c95f875)
+
+
 ### API 설계
 ![image](https://github.com/MyoungSoo7/tdd-start/assets/13523622/9e7f02d9-afc2-46a8-a045-7b22d510f87e)
 
@@ -15,6 +17,7 @@
 ## 개발순서
 데이터모델링<br>
 ### ERD
+![image](https://github.com/MyoungSoo7/tdd-start/assets/13523622/70375533-4cf6-4791-bfbf-f4ab8adacb83)
 ![image](https://github.com/MyoungSoo7/tdd-start/assets/13523622/84b4541b-ef29-43af-ad0e-7d72772dc70f)
 -- 요구사항 정의서<br>
 -- ![image](https://github.com/MyoungSoo7/tdd-start/assets/13523622/6ce52a32-52c4-414d-9a1a-87787f750103)
