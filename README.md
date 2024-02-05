@@ -6,7 +6,8 @@
 - 여러 학생이 동시에 수강신청을 하는 동시성제어를 해야 한다. <br>
 
 ### ERD
-![image](https://github.com/MyoungSoo7/tdd-start/assets/13523622/39aaff9c-010d-4d7e-b0da-43717c95f875)
+![image](https://github.com/MyoungSoo7/tdd-start/assets/13523622/8f8eabd5-97f7-456e-9bba-7f278dc0baef)
+
 
 
 ### API 설계
