@@ -1,23 +1,16 @@
 package me.lms.tddstart.model;
 
+import jakarta.persistence.*;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.Id;
-import lombok.Data;
-import lombok.Generated;
 
 @Entity
-@Data
 public class Professor {
 
     @Id
     @GeneratedValue(strategy = jakarta.persistence.GenerationType.IDENTITY)
-    private Long professorId;
-    private String name;
-    private String email;
-    private String password;
-    private String phone;
-    private String address;
+    private int professorCode;
+
+    private String professorName;
+    private int departmentCode;
 
 }
