@@ -22,8 +22,8 @@ class StudentRepositoryTest {
 
 
     @Test
-    @DisplayName("학생 조회 테스트")
-    void searchStudent() {
+    @DisplayName("학생 저장 테스트")
+    void saveStudent() {
         // given
         Student student = new Student("student1", 1);
         studentRepository.save(student);
@@ -34,6 +34,7 @@ class StudentRepositoryTest {
         // then
         assertNotNull(foundStudent);
         assertEquals("student1", foundStudent.getStudentName());
+        assertEquals(1, foundStudent.getDepartmentCode());
     }
 
 
