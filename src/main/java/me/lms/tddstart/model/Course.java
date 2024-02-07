@@ -1,12 +1,18 @@
 package me.lms.tddstart.model;
 
 import jakarta.persistence.*;
+import lombok.AccessLevel;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
 
 import java.security.Timestamp;
 import java.util.Date;
 
 
 @Entity
+@Table(name = "`course`")
+@Getter
+@NoArgsConstructor(access = AccessLevel.PROTECTED)
 public class Course {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

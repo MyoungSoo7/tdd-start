@@ -30,6 +30,7 @@ DROP TABLE IF EXISTS `class`.`course`;
 CREATE TABLE course (
                         course_code INT AUTO_INCREMENT PRIMARY KEY COMMENT '강의번호',
                         course_name VARCHAR(20) NOT NULL COMMENT '강의명',
+                        professor_code INT NOT NULL COMMENT '교수번호',
                         pass_score INT COMMENT '합격점수',
                         limit_enrollment INT COMMENT '수강제한인원',
                         start_date DATE COMMENT '개강일',

@@ -1,3 +1,4 @@
+/*
 package me.lms.tddstart.service;
 
 import me.lms.tddstart.model.repository.StudentCourseRepository;
@@ -13,19 +14,24 @@ public class EnrollmentService {
 
     public void enroll(Integer studentId, Integer courseCode) {
         // 수강신청 로직 구현
-        /*Enrollment enrollment = new Enrollment();
+        */
+/*Enrollment enrollment = new Enrollment();
         enrollment.setStudentId(studentId);
         enrollment.setCourseCode(courseCode);
         enrollment.setEnrollmentDate(new Timestamp(System.currentTimeMillis()));
-        enrollmentRepository.save(enrollment);*/
+        enrollmentRepository.save(enrollment);*//*
+
     }
 
 
     public void cancel(Integer id) {
         // 수강취소 로직 구현
-        /*Enrollment enrollment = enrollmentRepository.findByStudentIdAndCourseCode(studentId, courseCode);
-        enrollmentRepository.delete(enrollment);*/
+        */
+/*Enrollment enrollment = enrollmentRepository.findByStudentIdAndCourseCode(studentId, courseCode);
+        enrollmentRepository.delete(enrollment);*//*
+
     }
 }
 
 
+*/
