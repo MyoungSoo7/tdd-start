@@ -14,14 +14,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/students")
 public class StudentController {
 
-
     @Autowired
     private StudentService studentService;
 
     @GetMapping("/{studentId}")
-    public ResponseEntity<Student> getStudent(@PathVariable Integer studentId) {
+    public ResponseEntity<Student> getStudent(@PathVariable("studentId") Integer studentId) {
         Student student = studentService.getStudentById(studentId);
-        System.out.println("student: " + student.toString());
         return ResponseEntity.ok(student);
     }
 

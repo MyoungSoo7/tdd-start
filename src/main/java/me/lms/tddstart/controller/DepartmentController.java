@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 public class DepartmentController {
 
     @GetMapping("/{department_code}")
-    public String getDepartments(@PathVariable Integer departmentCode) {
+    public String getDepartments(@PathVariable("department_code") Integer departmentCode) {
 
 
         return "Departments";

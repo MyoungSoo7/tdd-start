@@ -13,8 +13,8 @@ public class CourseController {
     @Autowired
     private CourseService courseService;
 
-    @GetMapping("/{courseCode}")
-    public ResponseEntity<Course> getCourse(@PathVariable Integer courseCode) {
+    @GetMapping("/{course_code}")
+    public ResponseEntity<Course> getCourse(@PathVariable("course_code") Integer courseCode) {
         Course course = courseService.getCourseByCode(courseCode);
         return ResponseEntity.ok(course);
     }
