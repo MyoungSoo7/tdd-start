@@ -13,7 +13,9 @@
 ### API 설계
 ![image](https://github.com/MyoungSoo7/tdd-start/assets/13523622/9e7f02d9-afc2-46a8-a045-7b22d510f87e)
 
-## TDD
+### TDD
+- repository 테스트
+- 수강신청/취소 및 동시성 테스트
 <!--
 ## 개발순서
 데이터모델링<br>
