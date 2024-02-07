@@ -20,4 +20,9 @@ public class Department {
     private int departmentCode;
     private String departmentName;
 
+    public Department(int departmentCode  ,String departmentName) {
+        this.departmentCode = departmentCode;
+        this.departmentName = departmentName;
+    }
+
 }
