@@ -1,0 +1,48 @@
+/*
+package me.lms.tddstart.service;
+
+import me.lms.tddstart.model.Course;
+import me.lms.tddstart.model.dto.CourseDto;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.junit.jupiter.MockitoExtension;
+import org.springframework.boot.test.mock.mockito.MockBean;
+
+import static org.junit.jupiter.api.Assertions.*;
+import static org.mockito.Mockito.when;
+
+// 테스트 주도 개발 TDD 실천법과 도구 book
+@ExtendWith(MockitoExtension.class)
+class EnrollmentServiceTest {
+
+    //@BeforeEach
+
+    @Mock
+    private CourseService courseService;
+
+    @InjectMocks
+    private EnrollmentService enrollmentService;
+
+    @Test
+    @DisplayName("수강신청 테스트")
+    void enroll() {
+
+        when(courseService.getCourseByCode(1)).thenReturn(new Course(1, "강의1"));
+
+        CourseDto result = enrollmentService.enroll(1, 1);
+
+        assertNotNull(result);
+        assertEquals(1, result.getCourseCode());
+        assertEquals("강의1", result.getCourseName());
+
+        //assertEquals("강의1", courseDto.getCourseName());
+
+    }
+
+
+
+}*/

@@ -19,6 +19,7 @@ public class Student {
     @GeneratedValue(strategy = jakarta.persistence.GenerationType.IDENTITY)
     private int studentId;
     private String studentName;
+    private int height;
     private int departmentCode;
 
     public Student(String studentName, int departmentCode) {

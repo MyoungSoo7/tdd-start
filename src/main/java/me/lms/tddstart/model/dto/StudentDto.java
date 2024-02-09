@@ -9,4 +9,11 @@ public class StudentDto {
     private int studentId;
     private String studentName;
     private int departmentCode;
+
+
+    public static void main(String[] args) {
+
+
+    }
+
 }

@@ -14,6 +14,7 @@ DROP TABLE IF EXISTS `class`.`student`;
 CREATE TABLE student (
                          student_id INT PRIMARY KEY AUTO_INCREMENT COMMENT '학생번호',
                          student_name VARCHAR(50) COMMENT '학생명',
+                         height INT COMMENT '키',
                          department_code INT COMMENT '학과코드'
 );
 
