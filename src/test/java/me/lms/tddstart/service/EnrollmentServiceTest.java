@@ -1,21 +1,18 @@
-/*
 package me.lms.tddstart.service;
 
 import me.lms.tddstart.model.Course;
 import me.lms.tddstart.model.dto.CourseDto;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
-import org.springframework.boot.test.mock.mockito.MockBean;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.mockito.Mockito.when;
 
-// 테스트 주도 개발 TDD 실천법과 도구 book
 @ExtendWith(MockitoExtension.class)
 class EnrollmentServiceTest {
 
@@ -45,4 +42,4 @@ class EnrollmentServiceTest {
 
 
 
-}*/
+}
