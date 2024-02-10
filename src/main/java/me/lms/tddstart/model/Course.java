@@ -49,8 +49,9 @@ public class Course {
     @Column(name = "modify_user_id")
     private String modifyUserId;
 
-    public Course(int courseCode, String courseName ) {
+    public Course(int courseCode, String courseName, int professorCode ) {
         this.courseCode = courseCode;
         this.courseName = courseName;
+        this.professorCode = professorCode;
     }
 }

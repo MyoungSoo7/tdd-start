@@ -19,4 +19,12 @@ public class Professor {
     private String professorName;
     private int departmentCode;
 
+
+    public Professor(int professorCode, String professorName, int departmentCode) {
+        this.professorCode = professorCode;
+        this.professorName = professorName;
+        this.departmentCode = departmentCode;
+    }
+
+
 }

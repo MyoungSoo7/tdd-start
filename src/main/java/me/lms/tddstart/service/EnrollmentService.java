@@ -13,6 +13,10 @@ public class EnrollmentService {
 
     public CourseDto enroll(Integer studentId, Integer courseCode) {
 
+        // 학생이 수강신청한다.
+        // 학생이 수강신청한 강의를 리턴한다.
+
+
         //Student student = studentRepository.findById(studentId).orElse(null);
         Course course = courseService.getCourseByCode(courseCode);
 

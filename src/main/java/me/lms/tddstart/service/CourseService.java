@@ -1,7 +1,7 @@
 package me.lms.tddstart.service;
 
 import me.lms.tddstart.model.Course;
-import me.lms.tddstart.model.repository.CourseRepositoy;
+import me.lms.tddstart.model.repository.CourseRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 public class CourseService {
 
     @Autowired
-    private CourseRepositoy  courseRepository;
+    private CourseRepository courseRepository;
 
     public Course getCourseByCode(Integer courseCode) {
         return courseRepository.findById(courseCode).orElse(null);

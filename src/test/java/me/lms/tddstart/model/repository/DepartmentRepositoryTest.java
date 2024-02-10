@@ -20,19 +20,15 @@ class DepartmentRepositoryTest {
     @DisplayName("부서 저장 테스트")
     void saveDepartment() {
         // given
-        Department department = new Department(1, "개발팀");
-        departmentRepository.save(department);
+        final Department department = new Department(1, "컴퓨터공학");
 
         // when
-        Department foundDepartment = departmentRepository.findById(1).orElse(null);
+        final Department savedDepartment = departmentRepository.save(department);
 
         // then
-        assertNotNull(foundDepartment);
-        assertEquals(1, foundDepartment.getDepartmentCode());
-        assertEquals("개발팀", foundDepartment.getDepartmentName());
+        assertNotNull(savedDepartment);
+        assertEquals(1, savedDepartment.getDepartmentCode());
+        assertEquals("컴퓨터공학", savedDepartment.getDepartmentName());
     }
-
-
-
 
 }

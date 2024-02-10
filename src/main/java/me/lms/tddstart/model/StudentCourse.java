@@ -28,4 +28,11 @@ public class StudentCourse {
 
     @Column(name = "result")
     private String result;
+
+
+    public StudentCourse(int studentId, int courseCode) {
+        this.studentId = studentId;
+        this.courseCode = courseCode;
+    }
+
 }
