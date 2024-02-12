@@ -1,5 +1,6 @@
 package me.lms.tddstart.model.dto;
 
+import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.persistence.Column;
 import lombok.Getter;
 import lombok.Setter;
@@ -10,6 +11,7 @@ import java.util.Date;
 
 @Getter
 @Setter
+@Schema(description = "수강 정보")
 public class CourseDto {
 
     private Integer studentId;

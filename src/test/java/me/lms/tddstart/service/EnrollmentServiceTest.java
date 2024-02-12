@@ -16,8 +16,6 @@ import static org.mockito.Mockito.when;
 @ExtendWith(MockitoExtension.class)
 class EnrollmentServiceTest {
 
-    //@BeforeEach
-
     @Mock
     private CourseService courseService;
 
@@ -29,14 +27,12 @@ class EnrollmentServiceTest {
     void enroll() {
 
         when(courseService.getCourseByCode(1)).thenReturn(new Course(1, "강의1" ,1));
-
         CourseDto result = enrollmentService.enroll(1, 1);
 
         assertNotNull(result);
         assertEquals(1, result.getCourseCode());
         assertEquals("강의1", result.getCourseName());
 
-        //assertEquals("강의1", courseDto.getCourseName());
     }
 
 }
