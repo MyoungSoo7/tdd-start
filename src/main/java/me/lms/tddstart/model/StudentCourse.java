@@ -16,23 +16,20 @@ public class StudentCourse {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
     private int id;
-
     @Column(name = "student_id")
     private int studentId;
-
     @Column(name = "course_code")
     private int courseCode;
-
     @Column(name = "score")
     private int score;
-
     @Column(name = "result")
     private String result;
-
 
     public StudentCourse(int studentId, int courseCode) {
         this.studentId = studentId;
         this.courseCode = courseCode;
+
     }
+
 
 }

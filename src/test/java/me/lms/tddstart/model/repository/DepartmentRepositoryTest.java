@@ -1,6 +1,8 @@
 package me.lms.tddstart.model.repository;
 
+import jakarta.transaction.Transactional;
 import me.lms.tddstart.model.Department;
+import me.lms.tddstart.model.dto.DepartmentDto;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,6 +13,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 
 @SpringBootTest
+@Transactional
 class DepartmentRepositoryTest {
 
     @Autowired

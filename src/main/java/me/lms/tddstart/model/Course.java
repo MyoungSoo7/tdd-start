@@ -2,8 +2,10 @@ package me.lms.tddstart.model;
 
 import jakarta.persistence.*;
 import lombok.AccessLevel;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import me.lms.tddstart.model.dto.CourseDto;
 
 import java.security.Timestamp;
 import java.util.Date;
@@ -12,6 +14,7 @@ import java.util.Date;
 @Entity
 @Table(name = "`course`")
 @Getter
+@AllArgsConstructor
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 public class Course {
     @Id
@@ -49,7 +52,8 @@ public class Course {
     @Column(name = "modify_user_id")
     private String modifyUserId;
 
-    public Course(int courseCode, String courseName, int professorCode ) {
+
+    public Course(int courseCode, String courseName, int professorCode) {
         this.courseCode = courseCode;
         this.courseName = courseName;
         this.professorCode = professorCode;

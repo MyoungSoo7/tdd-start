@@ -1,19 +1,28 @@
 package me.lms.tddstart.service;
 
+import jakarta.transaction.Transactional;
+import lombok.RequiredArgsConstructor;
 import me.lms.tddstart.model.Student;
+import me.lms.tddstart.model.dto.StudentDto;
 import me.lms.tddstart.model.repository.StudentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
+@RequiredArgsConstructor
 public class StudentService {
 
     @Autowired
-    private StudentRepository studentRepository;
+    private final StudentRepository studentRepository;
 
-    public Student getStudentById(Integer studentId) {
-        return studentRepository.findById(studentId).orElse(null);
+    @Transactional
+    public StudentDto saveStudent(Student student) {
+        return studentRepository.save(student);
     }
+
+    public StudentDto getStudent(int studentCode) {
+        return studentRepository.findById(studentCode
+
 }
 
 

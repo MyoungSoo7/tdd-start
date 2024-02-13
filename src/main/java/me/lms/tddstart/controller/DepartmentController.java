@@ -1,8 +1,10 @@
+/*
 package me.lms.tddstart.controller;
 
 
 import me.lms.tddstart.model.Course;
 import me.lms.tddstart.model.Department;
+import me.lms.tddstart.model.dto.DepartmentDto;
 import me.lms.tddstart.service.CourseService;
 import me.lms.tddstart.service.DepartmentService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,9 +19,10 @@ public class DepartmentController {
     private DepartmentService departmentService;
 
     @GetMapping("/{department_code}")
-    public ResponseEntity<Department> getDepartments(@PathVariable("department_code") Integer departmentCode) {
-        Department department = departmentService.getDepartments(departmentCode);
+    public ResponseEntity<DepartmentDto> getDepartments(@PathVariable("department_code") Integer departmentCode) {
+        DepartmentDto department = departmentService.getDepartments(departmentCode);
         return ResponseEntity.ok(department);
     }
 
 }
+*/

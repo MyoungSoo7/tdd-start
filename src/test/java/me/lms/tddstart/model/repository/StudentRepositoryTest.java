@@ -16,16 +16,14 @@ import static org.junit.jupiter.api.Assertions.*;
 @Transactional
 class StudentRepositoryTest {
 
-
     @Autowired
     private StudentRepository studentRepository;
-
 
     @Test
     @DisplayName("학생 저장 테스트")
     void saveStudent() {
         // given
-        Student student = new Student("student1", 1);
+        Student student = new Student(1, "student1", 0,1);
         studentRepository.save(student);
 
         // when
@@ -36,8 +34,5 @@ class StudentRepositoryTest {
         assertEquals("student1", foundStudent.getStudentName());
         assertEquals(1, foundStudent.getDepartmentCode());
     }
-
-
-
 
 }

@@ -1,6 +1,8 @@
+/*
 package me.lms.tddstart.controller;
 
 import me.lms.tddstart.model.Course;
+import me.lms.tddstart.model.dto.CourseDto;
 import me.lms.tddstart.service.CourseService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -14,8 +16,9 @@ public class CourseController {
     private CourseService courseService;
 
     @GetMapping("/{course_code}")
-    public ResponseEntity<Course> getCourse(@PathVariable("course_code") Integer courseCode) {
-        Course course = courseService.getCourseByCode(courseCode);
+    public ResponseEntity<CourseDto> getCourse(@PathVariable("course_code") Integer courseCode) {
+        CourseDto course = courseService.getCourseByCode(courseCode);
         return ResponseEntity.ok(course);
     }
 }
+*/

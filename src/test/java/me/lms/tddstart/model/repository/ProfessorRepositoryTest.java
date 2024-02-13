@@ -1,5 +1,6 @@
 package me.lms.tddstart.model.repository;
 
+import jakarta.transaction.Transactional;
 import me.lms.tddstart.model.Professor;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -11,6 +12,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 
 @SpringBootTest
+@Transactional
 class ProfessorRepositoryTest {
 
     @Autowired
